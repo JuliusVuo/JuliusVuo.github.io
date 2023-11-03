@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html lang="fi">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Testisivu Websovellusten kurssia varten</title> 
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Loop jne.</h1>
+        <div id="homebox">
+            <div id="homebutton" class="pagebutton">
+                <p>Home</p>
+            </div>
+
+            <div id="subbutton1" class="pagebutton">
+                <p>Longtext</p>
+            </div>
+
+            <div id="subbutton2" class="pagebutton">
+                <p>Form ja table</p>
+            </div>
+
+            <div id="subbutton3" class="pagebutton">
+                <p>Media ja lista</p>
+            </div>
+
+            <div id="subbutton4" class="pagebutton">
+                <p >AJAX</p>
+            </div>
+
+            <div id="subbutton5" class="pagebutton">
+                <p>Loop jne.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div id="contentbox" class="col-3 leftmost">
+                <h3>Lista</h3>
+                <p>Tässä on 5 tekstikenttä joihin voi kirjoittaa mitä vain. Kun painaa submit nappia, tulee kirjoitetut asiat listaan oikealle</p>
+            </div>
+            <div id="formbox" class="col-3 nform">
+                <form id="ItemForm">
+                    <label for="item1">Item 1:</label><br>
+                    <input type="text" id="item1" name="item1" required><br>
+                    <label for="item2">Item 2:</label><br>
+                    <input type="text" id="item2" name="item2" required><br>
+                    <label for="item3">Item 3:</label><br>
+                    <input type="text" id="item3" name="item3" required><br>
+                    <label for="item4">Item 4:</label><br>
+                    <input type="text" id="item4" name="item4" required><br>
+                    <label for="item5">Item 5:</label><br>
+                    <input type="text" id="item5" name="item5" required><br>
+                    <button type="button" onclick="submitForm()">Submit</button>
+                </form> 
+            </div>
+            <div id="contentbox" class="col-3">
+                <p id="itemlista"></p>
+            </div>
+        </div>
+        
+        <script src="function.js"></script>
+    </body>
+    <footer>
+        <p> Julius Vuorisalo </p>
+        <address> 
+           <a href="mailto:t0vuju01@students.oamk.fi">
+                t0vuju01@students.oamk.fi
+           </a>
+        </address>
+    </footer>
+</html>

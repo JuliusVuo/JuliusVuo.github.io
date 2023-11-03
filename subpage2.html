@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html lang="fi">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Testisivu Websovellusten kurssia varten</title> 
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Form ja table</h1>
+        <div id="homebox">
+            <div id="homebutton" class="pagebutton">
+                <p>Home</p>
+            </div>
+
+            <div id="subbutton1" class="pagebutton">
+                <p>Longtext</p>
+            </div>
+
+            <div id="subbutton2" class="pagebutton">
+                <p>Form ja table</p>
+            </div>
+
+            <div id="subbutton3" class="pagebutton">
+                <p>Media ja lista</p>
+            </div>
+
+            <div id="subbutton4" class="pagebutton">
+                <p >AJAX</p>
+            </div>
+
+            <div id="subbutton5" class="pagebutton">
+                <p>Loop jne.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div id="contentbox" class="col-3 leftmost">
+                <h3>Form ja table</h3>
+                <p>Tässä on 2 tekstikenttää, joihin kirjoittaa etu- ja sukunimet, jotka ilmestyvät submit-nappia painettua oikean puoleiseen tableen</p>
+            </div>
+            <div id="formbox" class="col-3 nform">
+                <form id="NameForm">
+                    <label for="fname">First name:</label><br>
+                    <input type="text" id="fname" name="fname" required><br>
+                    <label for="lname">Last name:</label><br>
+                    <input type="text" id="lname" name="lname" required><br>
+                    <input type="submit" value="Submit">
+                </form> 
+            </div>
+            <div id="tablebox" class="col-3 ntable">
+                <table id="nameTable">
+                    <thead>
+                        <tr>
+                            <th>First Name</th>
+                            <th>Last Name</th>
+                        </tr>
+                    </thead>
+                    <tbody id="nameTableBody">
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div id="adbox">
+            <p>Tämä laatikko sisältää mainoksen, jonka voi sulkea, mutta se avautuu uudestaan 10 s kuluttua</p>
+            <img id="adimage" src="images/annoyingad.png" alt="Olet joko estänyt mainoksen tai se ei latautunut">
+            <img id="closebutton" src="images/Flat_cross_icon.svg.png">
+        </div>
+        
+        <script src="function.js"></script>
+    </body>
+    <footer>
+        <p> Julius Vuorisalo </p>
+        <address> 
+           <a href="mailto:t0vuju01@students.oamk.fi">
+                t0vuju01@students.oamk.fi
+           </a>
+        </address>
+    </footer>
+</html>

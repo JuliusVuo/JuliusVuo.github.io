@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html lang="fi">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Testisivu Websovellusten kurssia varten</title> 
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Media ja lista</h1>
+        <div id="homebox">
+            <div id="homebutton" class="pagebutton">
+                <p>Home</p>
+            </div>
+
+            <div id="subbutton1" class="pagebutton">
+                <p>Longtext</p>
+            </div>
+
+            <div id="subbutton2" class="pagebutton">
+                <p>Form ja table</p>
+            </div>
+
+            <div id="subbutton3" class="pagebutton">
+                <p>Media ja lista</p>
+            </div>
+
+            <div id="subbutton4" class="pagebutton">
+                <p >AJAX</p>
+            </div>
+
+            <div id="subbutton5" class="pagebutton">
+                <p>Loop jne.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div id="contentbox" class="col-7 leftmost">
+                <h3>Tässä on Youtube video ja linkki kyseiseen videoon</h3>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/HD13eq_Pmp8?si=W_onSQacHg-CDQSH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <a href="https://youtu.be/HD13eq_Pmp8?si=oID6bv6lSOzXwzXq">Suora linkki videoon</a>
+            </div>
+            <div id="contentbox" class="col-3">
+                <h4>Muita Videoita</h4>
+                <ul>
+                    <li><a href="https://youtu.be/HD13eq_Pmp8?si=oID6bv6lSOzXwzXq">CSS Tutorial</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=wRNinF7YQqQ">Javascript tutorial</a></li>   
+                    <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Rick roll</a></li>
+                </ul>  
+            </div>
+            <div id="adbox">
+                <p>Tämä laatikko sisältää mainoksen, jonka voi sulkea, mutta se avautuu uudestaan 10 s kuluttua</p>
+                <img id="adimage" src="images/annoyingad.png" alt="Olet joko estänyt mainoksen tai se ei latautunut">
+                <img id="closebutton" src="images/Flat_cross_icon.svg.png">
+            </div>
+        </div>
+        
+        <script src="function.js"></script>
+    </body>
+    <footer>
+        <p> Julius Vuorisalo </p>
+        <address> 
+           <a href="mailto:t0vuju01@students.oamk.fi">
+                t0vuju01@students.oamk.fi
+           </a>
+        </address>
+    </footer>
+</html>

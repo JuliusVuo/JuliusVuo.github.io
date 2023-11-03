@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html lang="fi">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Testisivu Websovellusten kurssia varten</title> 
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>AJAX</h1>
+        <div id="homebox">
+            <div id="homebutton" class="pagebutton">
+                <p>Home</p>
+            </div>
+
+            <div id="subbutton1" class="pagebutton">
+                <p>Longtext</p>
+            </div>
+
+            <div id="subbutton2" class="pagebutton">
+                <p>Form ja table</p>
+            </div>
+
+            <div id="subbutton3" class="pagebutton">
+                <p>Media ja lista</p>
+            </div>
+
+            <div id="subbutton4" class="pagebutton">
+                <p >AJAX</p>
+            </div>
+
+            <div id="subbutton5" class="pagebutton">
+                <p>Loop jne.</p>
+            </div>
+        </div>
+        <div id="contentbox" class="col-12 fullpage">
+            <h3>Tässä on tekstiä, jonka voi korvata painamalla alla olevaa nappia</h3>
+            <button type="button" onclick="lataaDokumentti()">Korvaa teksti</button>
+        </div>
+        <div id="adbox">
+            <p>Tämä laatikko sisältää mainoksen, jonka voi sulkea, mutta se avautuu uudestaan 10 s kuluttua</p>
+            <img id="adimage" src="images/annoyingad.png" alt="Olet joko estänyt mainoksen tai se ei latautunut">
+            <img id="closebutton" src="images/Flat_cross_icon.svg.png">
+        </div>
+        
+        <script src="function.js"></script>
+    </body>
+    <footer>
+        <p> Julius Vuorisalo </p>
+        <address> 
+           <a href="mailto:t0vuju01@students.oamk.fi">
+                t0vuju01@students.oamk.fi
+           </a>
+        </address>
+    </footer>
+</html>
